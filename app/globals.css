@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  --primary-rgb: 231, 84, 0; /* RGB values for #E75400 */
+}
 body {
   background-color: #0b0b13;
   color: white;
