@@ -2,6 +2,8 @@ import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
 import { Statistics } from "./components/Statistics";
 import { SpecializedAgents } from "./components/SpecializedAgents";
+import CTASection from "./components/CTASection";
+import Footer from "./components/Footer";
 
 export default function HomePage() {
   return (
@@ -13,6 +15,12 @@ export default function HomePage() {
         <Statistics />
         <div>
           <SpecializedAgents />
+        </div>
+        <div className="">
+          <CTASection />
+        </div>
+        <div>
+          <Footer />
         </div>
       </main>
     </div>

@@ -7,7 +7,7 @@ export const Header = () => {
       <div className="flex items-center">
         <Link href="/" className="flex items-center">
           <Image
-            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1736621284/png24_vcxl8h.png"
+            src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1736773357/carbhigh_ud0l8k.png"
             alt="Alpha Intelligence Logo"
             width={70}
             height={30}

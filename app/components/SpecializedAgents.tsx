@@ -2,12 +2,16 @@ import { FaChartLine, FaShieldAlt, FaRocket } from "react-icons/fa";
 
 export const SpecializedAgents = () => {
   return (
-    <section className="px-8 py-8 max-w-7xl mx-auto flex flex-col items-center justify-center mt-10">
-      <h2 className="text-3xl font-bold text-white mb-4">Specialized Agents</h2>
-      <p className="text-lg text-white text-opacity-70 mb-8">
-        Deploy custom AI agents tailored to your specific needs in the SUI
-        ecosystem
-      </p>
+    <section className="px-8 py-8 max-w-7xl mx-auto mb-10">
+      <div className="mb-10 flex flex-col items-center justify-center mt-10">
+        <h2 className="text-3xl font-bold text-white mb-4">
+          Specialized Agents
+        </h2>
+        <p className="text-lg text-white text-opacity-70 mb-8">
+          Deploy custom AI agents tailored to your specific needs in the SUI
+          ecosystem
+        </p>
+      </div>
 
       <div className="flex flex-col md:flex-row gap-6">
         <div className="flex flex-col bg-black bg-opacity-80 p-4 rounded-lg w-full md:w-1/3  shadow-lg border border-gray-200 hover:border-primary hover:shadow-xl hover:-translate-y-2 hover:scale-105 transition transform duration-300 cursor-pointer">
