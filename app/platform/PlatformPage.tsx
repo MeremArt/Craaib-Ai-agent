@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Zap,
-  TrendingUp,
-  Shield,
-  Cpu,
-  Robot,
-  BarChart2,
-  Search,
-  GitBranch,
-} from "lucide-react";
+import { Zap, TrendingUp, Shield, Search, GitBranch } from "lucide-react";
 
 const PlatformPage = () => {
   const agents = [
